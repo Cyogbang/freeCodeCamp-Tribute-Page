@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: rgb(94, 94, 94);
+    margin: 3rem 1rem;
+}
+
+.main {
+    background: white;
+    margin: auto;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+#Star_name {
+    font-size: 4rem;
+}
+
+.Title {
+    display: grid;
+    margin: auto;
+    text-align: center;
+    width: 40rem;
+    padding-top: 2rem;
+}
+
+.img-div {
+    background: rgb(94, 94, 94);
+    margin: auto;
+    width: 97%;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+#image {
+    display: flex;
+    margin: auto;
+    max-width: 85%;
+    height: 40rem;
+}
+
+#img-caption {
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+#tribute-info {
+    margin: auto;
+    width: 40rem;
+    padding: 1rem;
+}
+
+#list_head {
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.link-text {
+    text-align: center;
+    padding: 1rem;
+}
+
+@media screen  and (max-width: 375px) {
+    #Star_name {
+        font-size: 2rem;
+    }
+
+    .Title {
+        width: 20rem;
+    }
+
+    #image {
+        height: 20rem;
+    }
+
+    #img-caption {
+        padding: 0.5rem;
+    }
+
+    #tribute-info {
+        width: 20rem;
+        padding: 0.5rem;
+    }
+    
+    #list_head {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}
